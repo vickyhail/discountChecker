@@ -1,0 +1,79 @@
+body{
+    background: url(./Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.png);
+ background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5rem;
+    font-family: 'STIX Two Text', serif;
+}
+.remark{
+    font-weight: bold;
+    background-color: #FF5E78;
+    text-align: center;
+    color:black;
+    border-radius: 1rem;
+    height:5rem;
+    font-size: small;
+   
+
+}
+.result{
+    font-size: small;
+    font-weight: bold;
+    background-color: #F9F871;
+    text-align: center;
+    color:black;
+    border-radius: 1rem;
+    height:3rem;
+    margin-left:20rem !important;
+}
+
+    .clr{
+        
+        margin-top: 1rem;
+        background-color:#845EC2; 
+        width: 5rem;
+        border-radius: 1rem;
+        color: white;
+        margin-top: 0px;
+    }
+    .wrap{
+        
+        font-weight: bolder;
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+        border-radius:5rem;
+        background-color: #7868E6;
+        height: 93vh;
+       width: 30% !important;
+       align-content: center;
+       box-shadow: 2px 2px 3px 4px cornflowerblue;
+        
+    }
+    input{
+        margin-left:35rem;
+    
+
+    }
+
+
+    .clr:hover{
+        background-color:#62458f;
+    }
+    .result:hover{
+        background-color:#ffff00;
+    }
+
+    .wrap1{
+        margin-left: 40rem;
+    }
+    
+
+    @media screen and (min-width:480px){
+        .wrap{
+            width: 30rem !important;
+            height: 100vh;
+          
+
+    }
+
+    

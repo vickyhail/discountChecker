@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.wrapper{
+    margin-left: 25rem;
+    margin-top: .2rem;
+    margin-right: 20rem;
+    background-color:#F7D6E0;
+    color:white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    border: 1px solid rgb(160, 10, 80);
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    box-shadow:-3px -4px 16px -2px rgba(222,0,118,0.75);
+    transition: 0.85;
+}
+
+#btn{
+    margin:2rem;
+    
+    background-color:#DB3069; 
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.result{
+    font-weight: bold;
+    padding: 10px;
+    background-color:#F2B5D4;
+    text-align: center;
+    color:black;
+    width: 10rem;
+    margin-left: 1.5rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+.remark{
+    font-weight: bold;
+    padding: 8px;
+    background-color:#F2B5D4;
+    text-align: center;
+    color:black;
+    height: 5rem;
+    width: 15rem;
+    margin-left:.5rem;
+    border-radius: 1rem;
+    margin-top:1rem;
+    padding-top: 1rem;
+
+}
+h1{
+    color: rgb(224, 77, 146);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+
+}
+/*h1:hover{
+    
+    background-color: rgb(224, 4, 107) ;
+    color:white;
+    border-radius: 1rem;
+}*/
+label{
+    color: black;
+    margin-top: 0px;
+    display: block;
+
+}
+input{
+    text-align: center;
+    display: block;
+}
+.btn{
+    margin:2rem;
+    margin-top: 1rem;
+    background-color:#DB3069; 
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    color: white;
+    margin-top: 0px;
+
+}
+.h1{
+    color: white;
+    width: fit-content;
+    margin-left: 35rem;
+    animation-name: myanimation;
+    animation-duration:10s;
+}
+@keyframes myanimation {
+    0%{color: pink; left:200px;}
+    25%{color: rgb(224, 4, 107); left:300px;}
+    50%{color: rgba(222,0,118,0.75);left:400px;}
+    100%{color: rgba(149, 7, 83, 0.75);left:500px; }
+    
+}
+
+
+.wrap{
+    box-shadow: 2px 2px 2px 2px gray;
+    border-top-left-radius:2rem;
+    border-bottom-right-radius:2rem;
+    
+}
+body{
+    background: url(./Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.png);
+ background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5rem;
+}
