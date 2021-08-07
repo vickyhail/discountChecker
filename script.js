@@ -1,10 +1,4 @@
-// let valueofshoe=parseInt(document.querySelector("#shoe")).value;
-// let valueofbag= parseInt(document.querySelector("#dress")).value;
-// let valueofdress=parseInt(document.querySelector("#bag")).value;
-// let valueofnecklace=parseInt(document.querySelector(".necklace")).value;
-// let valueofbelt= parseInt(document.querySelector("#belt")).value;
-// let result= parseInt(document.querySelector(".result")).value;
-// //let remark= parseInt(document.querySelector(".remark")).value;
+
 
 const shoe=document.querySelector("#shoe");
 const bag= document.querySelector("#bag");
@@ -61,15 +55,7 @@ function total(){
       
     }
    
-    //total click button 
-   //document.querySelector("button").onclick = function (){
-    //  total();
-    //}
-
-    Button.addEventListener(click, function (){
-        total();
-    })
-
+    
 
 // function to clear input boxes
 document.querySelector("button.clr").onclick = function (){
